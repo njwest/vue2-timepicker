@@ -1,6 +1,6 @@
-# Vue2 Time Picker
+# VueJS Time Picker
 
-A dropdown time picker (hour|minute|second) for **Vue 2.x**, with flexible time format support.
+A dropdown time picker (hour|minute|second) for **Vue 2.x**, with flexible time format support. Fork of the now-unmaintained vue2-timepicker package.
 
 ## Demo
 
@@ -32,10 +32,10 @@ bower install https://github.com/xxRockOnxx/vue2-timepicker.git#master --save-de
 
 ```javascript
 // import
-import VueTimepicker from 'vue2-timepicker'
+import VueTimepicker from 'vuejs-timepicker'
 
 // Or, require
-var VueTimepicker = require('vue2-timepicker')
+var VueTimepicker = require('vuejs-timepicker')
 
 ```
 
@@ -43,9 +43,9 @@ or, **B**: Include distribution files with `<script>` and `<style>`
 
 ```html
 <script src="yourpath/vue/dist/vue.min.js"></script>
-<script src="yourpath/vue2-timepicker/dist/vue2-timepicker.min.js"></script>
+<script src="yourpath/vuejs-timepicker/dist/vue2-timepicker.min.js"></script>
 
-<link href="yourpath/vue2-timepicker/dist/vue2-timepicker.min.css" rel="stylesheet"></link>
+<link href="yourpath/vuejs-timepicker/dist/vue2-timepicker.min.css" rel="stylesheet"></link>
 ```
 
 **NOTE:** When using the `dist` files, a `Vue.use()` call is needed

@@ -1,7 +1,7 @@
 {
-  "name": "vue2-timepicker",
+  "name": "vuejs-timepicker",
   "version": "0.1.4",
-  "description": "A dropdown time picker (hour|minute|second) for Vue 2.x, with flexible time format support",
+  "description": "A dropdown time picker (hour|minute|second) for Vue 2.x, with flexible time format support. Fork of the now-unmaintained vue2-timepicker package.",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "demo": "cross-env NODE_ENV=demo webpack --progress --hide-modules",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phoenixwong/vue2-timepicker.git"
+    "url": "git+https://github.com/xxRockOnxx/vue2-timepicker.git"
   },
   "keywords": [
     "vue",
@@ -66,11 +66,11 @@
     "webpack-hot-middleware": "^2.12.2",
     "webpack-merge": "^0.14.1"
   },
-  "author": "Phoenix Wong <phoenixyfwong@gmail.com>",
+  "author": "Lemuel Flores <lemuelflores.netlify.com>, Nick West <mail@nickwe.st> (NPM publisher), Phoenix Wong <phoenixyfwong@gmail.com> (Original vue2-timepicker package author)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phoenixwong/vue2-timepicker/issues"
+    "url": "https://github.com/xxRockOnxx/vue2-timepicker/issues"
   },
-  "homepage": "https://github.com/phoenixwong/vue2-timepicker#readme",
+  "homepage": "https://github.com/xxRockOnxx/vue2-timepicker/issues#readme",
   "main": "dist/vue2-timepicker.min.js"
 }
